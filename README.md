@@ -18,4 +18,4 @@ Create file .tag for test send attachments or just run this file [teleAttachment
 ![trigger telegram](https://1.tilyanpristka.id/images/TagUI-trigger-telegram.png)
 
 #### Result
-![trigger telegram](https://1.tilyanpristka.id/images/Telegram-Result.png)
+![trigger telegram](https://1.tilyanpristka.id/images/Telegram-Result1.png)
