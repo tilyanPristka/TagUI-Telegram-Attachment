@@ -14,3 +14,8 @@ Improve `TagUI` Feature to be able to `Send Telegram with Attachments`
 #### Testing
 Create file .tag for test send attachments or just run this file [teleAttachments.tag](https://raw.githubusercontent.com/tilyanPristka/TagUI-Telegram-Attachment/main/teleAttachments.tag) 
 >telegram `CHAT_ID` [your attachment file path (use `,` for separate multi attachments)] `TEXT_MESSAGE`
+
+![trigger telegram](https://1.tilyanpristka.id/images/TagUI-trigger-telegram.png)
+
+#### Result
+![trigger telegram](https://1.tilyanpristka.id/images/Telegram-Result.png)
