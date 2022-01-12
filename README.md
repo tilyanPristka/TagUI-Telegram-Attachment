@@ -8,7 +8,7 @@ Improve `TagUI` Feature to be able to `Send Telegram with Attachments`
 - Prepare your server (vps, hosting), then upload these 2 files to your server:
   (Before you can see this first: https://github.com/kelaberetiv/TagUI/tree/master/src/telegram)
   - [upload_doc.php](https://raw.githubusercontent.com/tilyanPristka/TagUI-Telegram-Attachment/main/upload_doc.php) I set all uploaded files to be in a folder with the name `storage`.
-  - [sendAttachment.php](https://raw.githubusercontent.com/tilyanPristka/TagUI-Telegram-Attachment/main/sendAttachment.php) join this in the same path as the `sendMessage.php` which is default from TagUI. And don't forget to fill in the Telegram API Token in this file.
+  - [sendAttachment.php](https://raw.githubusercontent.com/tilyanPristka/TagUI-Telegram-Attachment/main/telegram/sendAttachment.php) join this in the same path as the `sendMessage.php` which is [default from TagUI](https://github.com/kelaberetiv/TagUI/tree/master/src/telegram). And don't forget to fill in the Telegram API Token in this file.
 
 
 #### Testing
