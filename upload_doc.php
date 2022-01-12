@@ -4,7 +4,7 @@ header('Access-Control-Allow-Credentials: true');
 header('Access-Control-Max-Age: 86400');
 header("Content-type: application/json; charset=utf-8");
 
-if(isset($_POST['secret']) && $_POST['secret'] == "guegantengbanget"){
+if(isset($_POST['secret']) && $_POST['secret'] == "secret"){
   $files = (isset($_FILES)) ? $_FILES : array();
   if(isset($files) && count($files) > 0){
     for($jkl=0;$jkl<count($files['docs']['name']);$jkl++){
