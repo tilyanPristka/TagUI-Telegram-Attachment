@@ -9,7 +9,7 @@ $docs_name = $content =  "";
 if(count($doc) > 0){
   $param2 = trim(str_replace("$doc[0] ","", $param2));
   $files = explode(',', $doc[1]);
-  $url = "https://rpa.tilyanpristka.id/upload_doc.php";
+  $url = "https://YOUR_SERVER_DOMAIN/upload_doc.php";
   
   $boundary = '--------------------------' . microtime(true);
   foreach($files as $file){
