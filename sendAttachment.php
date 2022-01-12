@@ -29,7 +29,7 @@ date_default_timezone_set('Asia/Jakarta');
 // file_put_contents("../../telegram/sendMessage.log", $log_entry, FILE_APPEND);
 
 
-define("TELE_TOKEN", "YOURTELEGRAMTOKEN");
+define("TELE_TOKEN", "YOUR_TELEGRAM_TOKEN");
 
 function sendTeleDoc($chat_id, $message, $attachment){
   $method	= "sendDocument";
