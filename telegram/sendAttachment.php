@@ -43,7 +43,7 @@ function curlTeleDoc($url, $message, $doc_path){
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_POST, 1);
   $finfo = finfo_file(finfo_open(FILEINFO_MIME_TYPE), $doc_path);
-  $cFile = new CURLFile($doc_path, $finfo);
+  $cFile = new CURLFile(realpath($doc_path), $finfo);
   curl_setopt($ch, CURLOPT_POSTFIELDS, [
     "document" => $cFile,
     'caption' => $message
