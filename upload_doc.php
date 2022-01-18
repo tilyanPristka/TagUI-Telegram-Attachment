@@ -20,7 +20,7 @@ if(isset($_POST['secret']) && $_POST['secret'] == "secret"){
         die();
       }
       
-      $path = "storage/";
+      $path = "telegram/storage/";
       if(move_uploaded_file($fileTmpLoc, $path.$fileName)){
         $res[] = "Upload doc to storage, success!";
         $msg = "OK";
