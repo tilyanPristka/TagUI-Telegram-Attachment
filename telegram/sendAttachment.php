@@ -33,7 +33,7 @@ define("TELE_TOKEN", "YOUR_TELEGRAM_TOKEN");
 
 function sendTeleDoc($chat_id, $message, $attachment){
   $method	= "sendDocument";
-  $doc_path = "../storage/".$attachment;
+  $doc_path = "storage/".$attachment;
   $url    = "https://api.telegram.org/bot" . TELE_TOKEN . "/". $method . "?chat_id=" . $chat_id;
   return curlTeleDoc($url, $message, $doc_path);
 }
