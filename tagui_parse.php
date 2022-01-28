@@ -26,7 +26,7 @@ if(count($doc) > 0){
   }
   $content .= "--".$boundary."\r\n".
     "Content-Disposition: form-data; name=\"secret\"\r\n\r\n".
-    "secret\r\n";
+    "YOURSECRETHERE\r\n";
   $content .= "--".$boundary."--\r\n";
   $context = stream_context_create([
     'http' => [
