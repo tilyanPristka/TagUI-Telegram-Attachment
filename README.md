@@ -19,3 +19,7 @@ Create file .tag for test send attachments or just run this file [teleAttachment
 
 #### Result
 ![trigger telegram](https://1.tilyanpristka.id/images/Telegram-Result1.png)
+
+
+https://user-images.githubusercontent.com/97102924/152497125-6c3d0919-08e8-40e2-8cb2-c373a8b6d7a6.mp4
+
